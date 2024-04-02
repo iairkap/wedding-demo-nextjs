@@ -1,0 +1,70 @@
+.section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.h1 {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/backgroundhero.png");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.invite {
+  font-family: "Roboto" sans-serif;
+  color: white;
+  font-weight: 900;
+  font-size: 6.5625rem;
+}
+.wedding {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Roboto" sans-serif;
+  font-size: auto;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.11625rem;
+  width: 100%;
+  font-size: 4.4rem;
+}
+.celebration {
+  color: #fff;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Roboto" sans-serif;
+  font-size: auto;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: white;
+  width: 100%;
+  color: #fff;
+  font-family: "Roboto" sans-serif;
+  font-size: 5.7rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.1575rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
