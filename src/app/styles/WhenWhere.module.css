@@ -29,3 +29,21 @@
   margin-bottom: 5rem;
   width: 100%;
 }
+
+.red,
+.blue,
+.black {
+  text-align: justify;
+  font-family: "Red Hat Display";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 50%; /* 2rem */
+}
+
+.red {
+  color: #fc2733;
+}
+.blue {
+  color: #00a58b;
+}

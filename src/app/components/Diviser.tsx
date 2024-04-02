@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../styles/diviser.module.css"
+import styles from "../styles/diviserblack.module.css"
 function Diviser() {
     return (
         <div className={styles.div}>

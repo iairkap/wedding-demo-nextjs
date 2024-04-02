@@ -22,8 +22,8 @@
   justify-content: center;
   gap: 1rem;
   .lineblack {
-    width: 190px;
-    height: 3px;
+    width: 19%;
+    height: 1px;
     background-color: #000;
   }
 }

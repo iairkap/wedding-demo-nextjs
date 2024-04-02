@@ -6,7 +6,12 @@ function WhereWhere() {
     return (
         <section className={styles.section}>
             <header className={styles.header}>
-                <h2>When Where</h2>
+                <h2>
+                    <span className={styles.red}>WHEN</span> <span className={styles.black}> & </span>
+                    <span className={styles.blue}>
+                        WHERE
+                    </span>
+                </h2>
                 <Diviser />
             </header>
             <div className={styles["card-container"]}>

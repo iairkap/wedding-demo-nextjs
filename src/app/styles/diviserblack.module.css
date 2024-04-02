@@ -1,0 +1,27 @@
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  z-index: 300;
+  width: 300px;
+}
+
+.section {
+  height: 5px;
+  background-color: white;
+  width: 50%;
+}
+.diviser {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  .lineblack {
+    width: 50%;
+    height: 1px;
+    background-color: black;
+  }
+}
