@@ -68,3 +68,32 @@
   justify-content: center;
   text-align: center;
 }
+.containerA {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.svgContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.rsvpButton {
+  color: white;
+  z-index: 30;
+  color: #fff;
+  font-family: "Source Serif Pro";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}

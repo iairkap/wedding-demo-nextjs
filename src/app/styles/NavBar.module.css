@@ -1,0 +1,22 @@
+.containerNav {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 5rem;
+  color: #000;
+  font-family: "Source Serif Pro";
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
