@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-bottom: 15rem;
+  margin-top: 2rem;
 }
 
 .header-container {
